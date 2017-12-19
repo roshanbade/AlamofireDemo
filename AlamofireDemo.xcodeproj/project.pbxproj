@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E136CA31FE921780006DF0F /* CourseProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E136CA21FE921780006DF0F /* CourseProgress.swift */; };
+		3E136CA51FE921A50006DF0F /* UnitProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E136CA41FE921A50006DF0F /* UnitProgress.swift */; };
+		3E136CA71FE921BC0006DF0F /* CourseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E136CA61FE921BC0006DF0F /* CourseState.swift */; };
+		3E136CAA1FE923790006DF0F /* ChapterProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E136CA91FE923790006DF0F /* ChapterProgress.swift */; };
+		3E136CAD1FE923F30006DF0F /* ChapterResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E136CAC1FE923F30006DF0F /* ChapterResource.swift */; };
 		3E3C698C1FE7C9E800F59837 /* TestJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C698B1FE7C9E800F59837 /* TestJson.swift */; };
 		3E419D651FE789E5001B4A8E /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E419D641FE789E5001B4A8E /* Course.swift */; };
 		3E419D6B1FE78EA2001B4A8E /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E419D6A1FE78EA2001B4A8E /* Unit.swift */; };
@@ -20,10 +25,17 @@
 		3EBD34D81FE292A80076FB89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD34D61FE292A80076FB89 /* Main.storyboard */; };
 		3EBD34DA1FE292A80076FB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD34D91FE292A80076FB89 /* Assets.xcassets */; };
 		3EBD34DD1FE292A80076FB89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EBD34DB1FE292A80076FB89 /* LaunchScreen.storyboard */; };
+		3EDC53D51FE8EF6C009D1EE1 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC53D41FE8EF6C009D1EE1 /* Login.swift */; };
+		3EDC53D81FE9030C009D1EE1 /* Authority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDC53D71FE9030C009D1EE1 /* Authority.swift */; };
 		CE4AF9A3A2334B590C3711F4 /* Pods_AlamofireDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3A125CFA7A97CF947E2F48 /* Pods_AlamofireDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E136CA21FE921780006DF0F /* CourseProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgress.swift; sourceTree = "<group>"; };
+		3E136CA41FE921A50006DF0F /* UnitProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitProgress.swift; sourceTree = "<group>"; };
+		3E136CA61FE921BC0006DF0F /* CourseState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseState.swift; sourceTree = "<group>"; };
+		3E136CA91FE923790006DF0F /* ChapterProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterProgress.swift; sourceTree = "<group>"; };
+		3E136CAC1FE923F30006DF0F /* ChapterResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterResource.swift; sourceTree = "<group>"; };
 		3E3C698B1FE7C9E800F59837 /* TestJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJson.swift; sourceTree = "<group>"; };
 		3E419D641FE789E5001B4A8E /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		3E419D6A1FE78EA2001B4A8E /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
@@ -39,6 +51,8 @@
 		3EBD34D91FE292A80076FB89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EBD34DC1FE292A80076FB89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EBD34DE1FE292A80076FB89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDC53D41FE8EF6C009D1EE1 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3EDC53D71FE9030C009D1EE1 /* Authority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authority.swift; sourceTree = "<group>"; };
 		57EE4FB369B5383680BE00FD /* Pods-AlamofireDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3A125CFA7A97CF947E2F48 /* Pods_AlamofireDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3D5A18322EEA1EAAFC6C37 /* Pods-AlamofireDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +77,33 @@
 				DF3D5A18322EEA1EAAFC6C37 /* Pods-AlamofireDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E136CA11FE921260006DF0F /* courseProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3E136CA81FE923680006DF0F /* chapterProgress */,
+				3E136CA41FE921A50006DF0F /* UnitProgress.swift */,
+				3E136CA61FE921BC0006DF0F /* CourseState.swift */,
+			);
+			path = courseProgress;
+			sourceTree = "<group>";
+		};
+		3E136CA81FE923680006DF0F /* chapterProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3E136CAB1FE923D50006DF0F /* resource */,
+				3E136CA91FE923790006DF0F /* ChapterProgress.swift */,
+			);
+			path = chapterProgress;
+			sourceTree = "<group>";
+		};
+		3E136CAB1FE923D50006DF0F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3E136CAC1FE923F30006DF0F /* ChapterResource.swift */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 		3E419D701FE793E6001B4A8E /* course */ = {
@@ -115,6 +156,8 @@
 		3EBD34D11FE292A80076FB89 /* AlamofireDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E136CA11FE921260006DF0F /* courseProgress */,
+				3EDC53D61FE902FC009D1EE1 /* login */,
 				3E419D641FE789E5001B4A8E /* Course.swift */,
 				3E419D701FE793E6001B4A8E /* course */,
 				3EBD34D21FE292A80076FB89 /* AppDelegate.swift */,
@@ -124,8 +167,18 @@
 				3EBD34DB1FE292A80076FB89 /* LaunchScreen.storyboard */,
 				3EBD34DE1FE292A80076FB89 /* Info.plist */,
 				3E3C698B1FE7C9E800F59837 /* TestJson.swift */,
+				3EDC53D41FE8EF6C009D1EE1 /* Login.swift */,
+				3E136CA21FE921780006DF0F /* CourseProgress.swift */,
 			);
 			path = AlamofireDemo;
+			sourceTree = "<group>";
+		};
+		3EDC53D61FE902FC009D1EE1 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				3EDC53D71FE9030C009D1EE1 /* Authority.swift */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		B0B466B0615875470E6D403F /* Frameworks */ = {
@@ -269,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E136CA31FE921780006DF0F /* CourseProgress.swift in Sources */,
+				3E136CA71FE921BC0006DF0F /* CourseState.swift in Sources */,
 				3E419D6B1FE78EA2001B4A8E /* Unit.swift in Sources */,
 				3E419D761FE794B0001B4A8E /* Resource.swift in Sources */,
 				3E419D651FE789E5001B4A8E /* Course.swift in Sources */,
@@ -278,7 +333,12 @@
 				3E419D6D1FE78EF7001B4A8E /* User.swift in Sources */,
 				3E419D741FE794A2001B4A8E /* Video.swift in Sources */,
 				3EBD34D31FE292A80076FB89 /* AppDelegate.swift in Sources */,
+				3EDC53D51FE8EF6C009D1EE1 /* Login.swift in Sources */,
+				3E136CAA1FE923790006DF0F /* ChapterProgress.swift in Sources */,
 				3E419D781FE794B9001B4A8E /* Quiz.swift in Sources */,
+				3E136CA51FE921A50006DF0F /* UnitProgress.swift in Sources */,
+				3EDC53D81FE9030C009D1EE1 /* Authority.swift in Sources */,
+				3E136CAD1FE923F30006DF0F /* ChapterResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

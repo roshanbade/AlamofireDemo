@@ -14,10 +14,17 @@ struct User: Codable {
     var lastName: String?
     var email: String?
     var joinDate: CLong?
+    var companyId: String?
     var modifiedDate: CLong?
-    var coursedEnrolled: [String]?
-    var coursedCompvared: [String]?
+    var coursesEnrolled: [String]?
+    var coursesCompleted: [String]?
     var coursesInProgress: [String]?
     var teachers: [String]?
     var roles: [String]?
+    var authorities: [Authority]?
+    var username: String?
+    var enabled: Bool?
+    var accountNonLocked: Bool?
+    var credentialsNonExpired: Bool?
+    var accountNonExpired: Bool?
 }
